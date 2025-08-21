@@ -1,4 +1,4 @@
-✅ Product CRUD – Mini App
+# ✅ Product CRUD – Mini App
 
 A simple and clean product management app built with React, TypeScript, Redux Toolkit Query, and Tailwind CSS. It supports adding, updating, and deleting products, while managing API state efficiently with RTK Query.
 
@@ -6,7 +6,7 @@ A simple and clean product management app built with React, TypeScript, Redux To
 ![Product-CRUD](/public/image1.png)
 ![Edit-Product-CRUD](/public/image.png)
 
-✨ Features
+# ✨ Features
 
 ✅ Add new products via a form
 
@@ -22,7 +22,7 @@ A simple and clean product management app built with React, TypeScript, Redux To
 
 ✅ Handles API state efficiently without unnecessary refetches
 
-📦 Tech Stack
+# 📦 Tech Stack
 
 React – Frontend library
 
