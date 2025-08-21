@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+✅ Product CRUD – Mini App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean product management app built with React, TypeScript, Redux Toolkit Query, and Tailwind CSS. It supports adding, updating, and deleting products, while managing API state efficiently with RTK Query.
 
-Currently, two official plugins are available:
+🖼 UI Preview
+![Product-CRUD](/public/image1.png)
+![Edit-Product-CRUD](/public/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## Expanding the ESLint configuration
+✅ Add new products via a form
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ Edit existing products inline
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ Delete products individually
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✅ Optimistic updates for immediate UI feedback
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+✅ Products are stored and managed through Redux Toolkit Query
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+✅ Fully responsive and accessible UI with Tailwind CSS
+
+✅ Handles API state efficiently without unnecessary refetches
+
+📦 Tech Stack
+
+React – Frontend library
+
+TypeScript – Type safety and clarity
+
+Redux Toolkit Query – Efficient data fetching and caching
+
+Tailwind CSS – Utility-first responsive design
+
+DummyJSON API – Mock API for product data
