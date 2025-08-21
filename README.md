@@ -4,8 +4,6 @@ A simple and clean product management app built with React, TypeScript, Redux To
 
 🖼 UI Preview
 ![Product-CRUD](/public/image1.png)
-![Edit-Product-CRUD](/public/image.png)
-
 # ✨ Features
 
 ✅ Add new products via a form
